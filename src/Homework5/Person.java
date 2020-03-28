@@ -18,6 +18,10 @@ public class Person {
         this.age = age;
     }
 
+    public void printPersonInfo(){
+        System.out.println(toString()); //Скажите, это корректное использование метода toString?
+    }
+
     @Override
     public String toString() {
         return  "FIO:'" + fio + '\'' +

@@ -12,7 +12,7 @@ public class TestPerson {
         System.out.println("Выводим информацию о сотрудниках старше 40 лет:");
         for (Person person: persArray) {
             if(person.getAge() >= 40) {
-                System.out.println(person);
+                person.printPersonInfo();
             }
         }
 
